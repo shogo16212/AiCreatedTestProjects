@@ -1,0 +1,38 @@
+﻿<Window x:Class="ProductManagementApp_20260319.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductManagementApp_20260319"
+        mc:Ignorable="d"
+        Style="{StaticResource Default}"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="listButton" Click="listButton_Click" Content="Product List" Margin="5"/>
+            <Button x:Name="submitButton" Click="submitButton_Click" Content="Product Create" Margin="5"/>
+            <Button x:Name="historyButton" Click="historyButton_Click" Content="History" Margin="5"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="5">
+            <TextBlock Text="Summary"/>
+            <TextBlock x:Name="amountTextBlock"/>
+            <TextBlock x:Name="stockTextBlock"/>
+        </StackPanel>
+
+        <DataGrid Grid.Row="2" Margin="5" x:Name="dataGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" Binding="{Binding CreatedAt, StringFormat=yyyy-MM-dd HH:mm:ss}" Width="*"/>
+                <DataGridTextColumn Header="Product" Binding="{Binding Product.ProductName}" Width="*"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding ActionType}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

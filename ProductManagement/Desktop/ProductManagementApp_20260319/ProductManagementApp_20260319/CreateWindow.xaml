@@ -1,0 +1,38 @@
+﻿<Window x:Class="ProductManagementApp_20260319.CreateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductManagementApp_20260319"
+        mc:Ignorable="d"
+        Style="{StaticResource Default}"
+        WindowStartupLocation="CenterScreen"
+
+        Title="CreateWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Product Name" Width="150"/>
+                <TextBox x:Name="nameTextBox" Width="250"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Stock" Width="150"/>
+                <TextBox x:Name="stockTextBox" Width="250"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Price" Width="150"/>
+                <TextBox x:Name="priceTextBox" Width="250"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button x:Name="submitButton" Click="submitButton_Click" Content="Submit" Margin="5"/>
+            <Button x:Name="cancelButton" Click="cancelButton_Click" Content="Cancel" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
