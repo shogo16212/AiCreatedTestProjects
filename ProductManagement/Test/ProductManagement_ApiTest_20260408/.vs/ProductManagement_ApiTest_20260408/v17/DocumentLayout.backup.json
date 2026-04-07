@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\dashboardtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\dashboardtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\historytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\historytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\entities\\postproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\entities\\postproductdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\entities\\commonentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\entities\\commonentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\createdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\createdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\entities\\posthistorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\entities\\posthistorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\producttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\producttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|c:\\users\\shogo\\source\\repos\\productmanagement_apitest_20260408\\productmanagement_apitest_20260408\\getitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7B5903-F2F7-41BF-AD93-7258436E9176}|ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408.csproj|solutionrelative:productmanagement_apitest_20260408\\getitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashBoardTest.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\DashBoardTest.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\DashBoardTest.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\DashBoardTest.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\DashBoardTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:56:29.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostHistoryData.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Entities\\PostHistoryData.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\Entities\\PostHistoryData.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Entities\\PostHistoryData.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\Entities\\PostHistoryData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:30:33.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\HistoryTest.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\HistoryTest.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\HistoryTest.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\HistoryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:20:05.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostProductData.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Entities\\PostProductData.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\Entities\\PostProductData.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Entities\\PostProductData.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\Entities\\PostProductData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:00:32.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateData.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\CreateData.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\CreateData.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\CreateData.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\CreateData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:41:33.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetItem.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\GetItem.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\GetItem.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\GetItem.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\GetItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:41:21.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonEntities.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Entities\\CommonEntities.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\Entities\\CommonEntities.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Entities\\CommonEntities.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\Entities\\CommonEntities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:41:11.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Common.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Common.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\Common.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\Common.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\Common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:39:20.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductTest.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\ProductTest.cs",
+              "RelativeDocumentMoniker": "ProductManagement_ApiTest_20260408\\ProductTest.cs",
+              "ToolTip": "C:\\Users\\shogo\\source\\repos\\ProductManagement_ApiTest_20260408\\ProductManagement_ApiTest_20260408\\ProductTest.cs",
+              "RelativeToolTip": "ProductManagement_ApiTest_20260408\\ProductTest.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAwMIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:07:02.44Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
