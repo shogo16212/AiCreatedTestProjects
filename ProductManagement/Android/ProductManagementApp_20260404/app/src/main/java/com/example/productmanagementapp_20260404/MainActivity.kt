@@ -1,5 +1,6 @@
 package com.example.productmanagementapp_20260404
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.StrictMode
 import android.widget.Button
@@ -23,6 +24,15 @@ class MainActivity : AppCompatActivity() {
         StrictMode.setThreadPolicy(StrictMode.ThreadPolicy.Builder().permitAll().build())
 
 
+        maListButton.setOnClickListener {
+            startActivity(Intent(this, ListActivity::class.java))
+        }
+        maSubmitButton.setOnClickListener {
+            startActivity(Intent(this, SubmitActivity::class.java))
+        }
+        maHistoryButton.setOnClickListener {
+            startActivity(Intent(this, ListActivity::class.java))
+        }
     }
 
     override fun onResume() {

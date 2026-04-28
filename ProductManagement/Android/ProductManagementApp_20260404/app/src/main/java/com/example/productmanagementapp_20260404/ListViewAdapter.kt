@@ -56,6 +56,8 @@ class ListViewAdapter(
                     itemNotifer?.select(product)
                 }
 
+                if(product.isSelected) setBackgroundColor(android.R.color.darker_gray)
+
                 setBackgroundColor(if(product.isSelected) Color.LTGRAY else Color.TRANSPARENT)
             }
             else -> View(context)

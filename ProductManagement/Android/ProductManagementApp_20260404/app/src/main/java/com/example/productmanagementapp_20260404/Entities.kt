@@ -38,7 +38,7 @@ data class ResponseGetProduct(
     val productName: String,
     val stock:Int,
     val price:Int,
-    val createdAt:String
+    val createdAt:String,
 ){
     fun GetCreated(): LocalDateTime{
         return LocalDateTime.parse(createdAt)

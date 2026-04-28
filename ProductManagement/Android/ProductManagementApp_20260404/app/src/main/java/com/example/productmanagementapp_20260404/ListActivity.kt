@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -17,14 +18,20 @@ class ListActivity : AppCompatActivity(), ItemNotifer{
     private val laUpdateButton by lazy { findViewById<Button>(R.id.laUpdateButton) }
     private val laDeleteButton by lazy { findViewById<Button>(R.id.laDeleteButton) }
     private var productList = listOf<DisplayProductData>()
-    private var selectProductId = 0;
+//    private var selectProductId = 0;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
         StrictMode.setThreadPolicy(StrictMode.ThreadPolicy.Builder().permitAll().build())
 
         laDeleteButton.setOnClickListener {
-
+            if(productList.any{it.isSelected}){
+//                AlertDialog(this).apply {
+//                    setTitle("Confirm")
+//                    setMessage("Delete this product?")
+//                    show()
+//                }
+//            }
         }
 
         laUpdateButton.setOnClickListener {
@@ -47,17 +54,18 @@ class ListActivity : AppCompatActivity(), ItemNotifer{
     fun refresh(){
         val originalProductList = Api.get<List<ResponseGetProduct>>("api/products")
         productList = filter(originalProductList, alSearchEditText.text.toString()).map { DisplayProductData(it, false) }.toList()
-        if(selectProductId != 0){
-            productList.forEach {
-                if(it.product.productId == selectProductId) it.isSelected = true
-            }
-        }
+//        if(selectProductId != 0){
+//            productList.forEach {
+//                if(it.product.productId == selectProductId) it.isSelected = true
+//            }
+//        }
         laProductListView.adapter = ListViewAdapter(this, R.layout.list_product, productList)
     }
 
     override fun select(item: Any?) {
         val product = item as DisplayProductData
-        selectProductId = product.product.productId
+        productList.forEach { it.isSelected = false }
+        product.isSelected = true
         refresh()
     }
 }
