@@ -3,6 +3,9 @@ package com.example.productmanagementapp_20260404
 import java.time.LocalDate
 import java.time.LocalDateTime
 
+data class ResponseMessage(
+    val message: String
+)
 data class HistoryData(
     val historyId:Int,
     val productId:Int,

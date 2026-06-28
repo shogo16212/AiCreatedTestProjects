@@ -36,13 +36,16 @@ object Api {
             throw ApiException(code, con.responseMessage, json)
         }
 
-        val json = BufferedReader(
+        var json = BufferedReader(
             InputStreamReader(
                 con.getInputStream(),
                 StandardCharsets.UTF_8
             )
         ).use { it.readText() }
 
+        if(code == 204){
+            json = gson.toJson(ResponseMessage("Success"))
+        }
         return json
     }
 
