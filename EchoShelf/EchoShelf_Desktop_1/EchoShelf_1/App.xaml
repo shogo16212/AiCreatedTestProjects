@@ -1,0 +1,16 @@
+﻿<Application x:Class="EchoShelf_1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EchoShelf_1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Window" x:Key="Default">
+            <Setter Property="FontSize" Value="17"/>
+        </Style>
+        <Style TargetType="Page" x:Key="PageStyle">
+            <Setter Property="FontSize" Value="17"/>
+        </Style>
+
+        <SolidColorBrush x:Key="Primary" Color="#FF8C42"/>
+    </Application.Resources>
+</Application>

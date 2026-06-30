@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="AnalysisPage1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreateUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditShelfWindow1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomePage1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MemoryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MenuWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProfilePage1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ShelvePage1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

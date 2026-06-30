@@ -1,0 +1,49 @@
+﻿<Window x:Class="EchoShelf_1.CreateUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EchoShelf_1"
+        mc:Ignorable="d"
+                Style="{StaticResource Default}"
+        WindowStartupLocation="CenterScreen"
+
+        Title="CreateUserWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="/Images/logo.png" Height="70"/>
+
+        <StackPanel Grid.Row="1" Background="{StaticResource Primary}" Height="10"/>
+
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Username:" Width="150"/>
+                <TextBox x:Name="usernameTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Email:" Width="150"/>
+                <TextBox x:Name="emailTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Password:" Width="150"/>
+                <PasswordBox x:Name="passBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Icon:" Width="150"/>
+                <Button x:Name="openButton" Content="Open" Click="openButton_Click"/>
+            </StackPanel>
+            <Image Height="100" HorizontalAlignment="Center" Margin="5" x:Name="iconImageView"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Name="saveButton" Click="saveButton_Click" Content="Save" Margin="5"/>
+            <Button Name="logoutButton" Click="logoutButton_Click" Content="Logout" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>

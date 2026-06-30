@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\profilepage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\profilepage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\shelvepage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\shelvepage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\profilepage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\profilepage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\shelvepage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\shelvepage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\menuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\menuwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\menuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\menuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_desktop_1\\echoshelf_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8D4E7C0E-0E8D-45E1-B2EA-DD746851C074}|EchoShelf_1\\EchoShelf_1.csproj|solutionrelative:echoshelf_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfilePage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ProfilePage1.xaml.cs",
+              "RelativeDocumentMoniker": "EchoShelf_1\\ProfilePage1.xaml.cs",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ProfilePage1.xaml.cs",
+              "RelativeToolTip": "EchoShelf_1\\ProfilePage1.xaml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAASwFAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:42:42.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfilePage1.xaml",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ProfilePage1.xaml",
+              "RelativeDocumentMoniker": "EchoShelf_1\\ProfilePage1.xaml",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ProfilePage1.xaml",
+              "RelativeToolTip": "EchoShelf_1\\ProfilePage1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-28T12:02:32.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShelvePage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ShelvePage1.xaml.cs",
+              "RelativeDocumentMoniker": "EchoShelf_1\\ShelvePage1.xaml.cs",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ShelvePage1.xaml.cs",
+              "RelativeToolTip": "EchoShelf_1\\ShelvePage1.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwC0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T14:05:40.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShelvePage1.xaml",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ShelvePage1.xaml",
+              "RelativeDocumentMoniker": "EchoShelf_1\\ShelvePage1.xaml",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\ShelvePage1.xaml",
+              "RelativeToolTip": "EchoShelf_1\\ShelvePage1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-28T12:02:18.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MenuWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EchoShelf_1\\MenuWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MenuWindow.xaml.cs",
+              "RelativeToolTip": "EchoShelf_1\\MenuWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T11:59:20.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MenuWindow.xaml",
+              "RelativeDocumentMoniker": "EchoShelf_1\\MenuWindow.xaml",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MenuWindow.xaml",
+              "RelativeToolTip": "EchoShelf_1\\MenuWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-28T11:57:02.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "EchoShelf_1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MainWindow.xaml",
+              "RelativeToolTip": "EchoShelf_1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-28T10:54:38.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EchoShelf_1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Desktop_1\\EchoShelf_1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "EchoShelf_1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T10:54:33.723Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
