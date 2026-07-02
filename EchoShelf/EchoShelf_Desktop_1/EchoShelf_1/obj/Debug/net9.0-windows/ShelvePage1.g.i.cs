@@ -85,7 +85,7 @@ namespace EchoShelf_1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EchoShelf_1;component/shelvepage1.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EchoShelf_1;V1.0.0.0;component/shelvepage1.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ShelvePage1.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

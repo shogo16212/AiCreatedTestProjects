@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{44D4B9CE-04E0-4173-8B4A-DE068BFFAB7C}|EchoShelf_Api\\EchoShelf_Api.csproj|solutionrelative:echoshelf_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Api\\EchoShelf_Api\\Models\\DB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EchoShelf_Api\\Models\\DB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44D4B9CE-04E0-4173-8B4A-DE068BFFAB7C}|EchoShelf_Api\\EchoShelf_Api.csproj|c:\\users\\shogo\\desktop\\aicreatedtestprojects\\echoshelf\\echoshelf_api\\echoshelf_api\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D4B9CE-04E0-4173-8B4A-DE068BFFAB7C}|EchoShelf_Api\\EchoShelf_Api.csproj|solutionrelative:echoshelf_api\\models\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Api\\EchoShelf_Api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "EchoShelf_Api\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Api\\EchoShelf_Api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "EchoShelf_Api\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwFYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-01T14:11:48.541Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -50,8 +63,7 @@
               "RelativeToolTip": "EchoShelf_Api\\Entities\\RequestSubmitMemory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:24:50.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T14:24:50.956Z"
             },
             {
               "$type": "Document",
@@ -63,8 +75,7 @@
               "RelativeToolTip": "EchoShelf_Api\\Entities\\RequestPostLogout.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:18:15.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T14:18:15.416Z"
             },
             {
               "$type": "Document",
@@ -76,21 +87,7 @@
               "RelativeToolTip": "EchoShelf_Api\\Entities\\RequestPostLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:12:35.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Api\\EchoShelf_Api\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "EchoShelf_Api\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Api\\EchoShelf_Api\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "EchoShelf_Api\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:11:48.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T14:12:35.415Z"
             },
             {
               "$type": "Document",
@@ -102,21 +99,19 @@
               "RelativeToolTip": "EchoShelf_Api\\Models\\DB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:10:20.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T14:10:20.98Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EchoShelf_Api",
+              "Title": "EchoShelf_Api.csproj",
               "DocumentMoniker": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Api\\EchoShelf_Api\\EchoShelf_Api.csproj",
               "RelativeDocumentMoniker": "EchoShelf_Api\\EchoShelf_Api.csproj",
               "ToolTip": "C:\\Users\\shogo\\Desktop\\AiCreatedTestProjects\\EchoShelf\\EchoShelf_Api\\EchoShelf_Api\\EchoShelf_Api.csproj",
               "RelativeToolTip": "EchoShelf_Api\\EchoShelf_Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-01T14:07:51.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T14:07:51.907Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "EchoShelf_Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T14:06:57.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T14:06:57.668Z"
             }
           ]
         }
