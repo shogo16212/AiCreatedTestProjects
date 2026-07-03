@@ -1,10 +1,12 @@
 package com.example.echoshelf_mobile_1
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.StrictMode
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ShareCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
@@ -16,6 +18,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(b.root)
         StrictMode.setThreadPolicy(StrictMode.ThreadPolicy.Builder().permitAll().build())
+
+        UserId = getSharedPreferences("DATA", MODE_PRIVATE).getInt("UserID", 0)
+        if(UserId != 0){
+            startActivity(Intent(this, MenuActivity::class.java))
+            finish()
+        }
 
         b.bt1.setOnClickListener {
             try{
@@ -31,6 +39,8 @@ class MainActivity : AppCompatActivity() {
 
                 UserId = response.data
 
+                startActivity(Intent(this, MenuActivity::class.java))
+                finish()
             }catch (ex: Api.ApiException){
                 val error = fromJson<ResponseError>(ex.errorJson)
                 Toast.makeText(this, error.error, Toast.LENGTH_SHORT).show()
