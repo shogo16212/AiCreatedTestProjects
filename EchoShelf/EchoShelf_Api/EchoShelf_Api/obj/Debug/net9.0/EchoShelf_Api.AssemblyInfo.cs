@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EchoShelf_Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3268aa49ab868b8203b748b0c0d26f2689d5b4be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78e21c8ba90898636141291ffa0f72c5b3bb986d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EchoShelf_Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EchoShelf_Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -36,7 +36,7 @@ namespace EchoShelf_Api.Controllers
             };
         }
 
-        [HttpGet("api/memories")]
+        [HttpGet("api/memories/{userId}")]
         public object GetMemories(int userId)
         {
             var user = db.Users.Include(a => a.Memories).ToList().FirstOrDefault(a => a.UserId == userId);
@@ -48,6 +48,21 @@ namespace EchoShelf_Api.Controllers
                 a.Title,
                 MemoryDate = a.MemoryDate.ToString("yyyy-MM-dd")
             });
+        }
+        [HttpGet("api/memories/{userId}/{memoryId}")]
+        public object GetMemory(int userId, int memoryId)
+        {
+            var user = db.Users.Include(a => a.Memories).ToList().FirstOrDefault(a => a.UserId == userId);
+            if (user == null) return NotFound(new { Error = "User not found." });
+            var memory = user.Memories.ToList().FirstOrDefault(a => a.MemoryId == memoryId);
+            if (memory == null) return NotFound(new { Error = "Memory not found." });
+
+            return user.Memories.Select(a => new
+            {
+                a.MemoryId,
+                a.Title,
+                MemoryDate = a.MemoryDate.ToString("yyyy-MM-dd")
+            }).First(a => a.MemoryId == memoryId);
         }
 
         [HttpPost("api/memories")]

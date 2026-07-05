@@ -1,0 +1,123 @@
+[
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "PostLogin",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginData",
+        "Type": "EchoShelf_Api.Entities.RequestPostLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "PostLogout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logoutData",
+        "Type": "EchoShelf_Api.Entities.RequestPostLogout",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "GetCategories",
+    "RelativePath": "api/categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "PostMemories",
+    "RelativePath": "api/memories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memory",
+        "Type": "EchoShelf_Api.Entities.RequestSubmitMemory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "DeleteMemory",
+    "RelativePath": "api/memories/{memoryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "GetMemories",
+    "RelativePath": "api/memories/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "GetMemory",
+    "RelativePath": "api/memories/{userId}/{memoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "memoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EchoShelf_Api.Controllers.BaseController",
+    "Method": "GetTags",
+    "RelativePath": "api/tags",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
