@@ -1,0 +1,26 @@
+﻿<Window x:Class="SilentMoment_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SilentMoment_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Today Silent Moment" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Today Silent Count" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="Average Silent Level" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Today Memory" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="l2" Content="" HorizontalAlignment="Left" Margin="148,72,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="l1" Content="" HorizontalAlignment="Left" Margin="148,41,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="dg1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="28,137,28,65" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Place" Binding="{Binding aa}" Width="*"/>
+                <DataGridTextColumn Header="Level" Binding="{Binding aa}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="b1" Content="Add Silent" HorizontalAlignment="Center" Margin="0,393,0,0" VerticalAlignment="Top" Click="b1_Click"/>
+        <Button x:Name="b2" Content="To List" HorizontalAlignment="Left" Margin="688,96,0,0" VerticalAlignment="Top" Click="b2_Click"/>
+
+    </Grid>
+</Window>
