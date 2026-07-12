@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SilentMoment_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Style="{StaticResource Default}"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="461" Width="800">
     <Grid>
         <Label Content="Today Silent Moment" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label Content="Today Silent Count" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
@@ -21,6 +23,8 @@
         </DataGrid>
         <Button x:Name="b1" Content="Add Silent" HorizontalAlignment="Center" Margin="0,393,0,0" VerticalAlignment="Top" Click="b1_Click"/>
         <Button x:Name="b2" Content="To List" HorizontalAlignment="Left" Margin="688,96,0,0" VerticalAlignment="Top" Click="b2_Click"/>
+        <Button x:Name="b3" Content="Tag management" HorizontalAlignment="Left" Margin="647,64,0,0" VerticalAlignment="Top" Click="b3_Click"/>
+        <Button x:Name="b4" Content="Place management" HorizontalAlignment="Left" Margin="640,31,0,0" VerticalAlignment="Top" Click="b4_Click"/>
 
     </Grid>
 </Window>

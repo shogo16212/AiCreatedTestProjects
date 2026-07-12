@@ -37,8 +37,12 @@ namespace SilentMoment_1
             db = new DB();
 
             var moments = db.QuietMoments.Include(a => a.Place).ToList().Where(a => a.RecordedAt.Date == DateTime.Now.Date).ToList();
-
-            l1.Content = moments.Average(a => a.QuietLevel);
+            var average = 0.0;
+            if (moments.Any())
+            {
+                average = moments.Average(a => a.QuietLevel);
+            }
+            l1.Content = average;
             l2.Content = moments.Count();
             dg1.ItemsSource = moments;
         }
@@ -47,6 +51,19 @@ namespace SilentMoment_1
         {
             new Window2().ShowDialog();
             Refresh();
+        }
+
+        private void b3_Click(object sender, RoutedEventArgs e)
+        {
+            new Window3().ShowDialog();
+            Refresh();
+        }
+
+        private void b4_Click(object sender, RoutedEventArgs e)
+        {
+            new Window4().ShowDialog();
+            Refresh();
+
         }
     }
 }

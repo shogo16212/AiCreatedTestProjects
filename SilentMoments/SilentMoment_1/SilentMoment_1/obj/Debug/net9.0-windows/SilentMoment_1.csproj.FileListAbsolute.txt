@@ -144,3 +144,9 @@ C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\Silent
 C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\ref\SilentMoment_1.dll
 C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window1.g.cs
 C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window1.baml
+C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window2.g.cs
+C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window2.baml
+C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window3.g.cs
+C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window3.baml
+C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window4.g.cs
+C:\Users\shogo\Desktop\AiCreatedTestProjects\SilentMoments\SilentMoment_1\SilentMoment_1\obj\Debug\net9.0-windows\Window4.baml

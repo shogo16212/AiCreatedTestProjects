@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SilentMoment_1"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="800">
+        Style="{StaticResource Default}"
+        WindowStartupLocation="CenterScreen"
+        Title="Quiet Moment Register" Height="457" Width="800">
     <Grid>
-        
+        <Label Content="Title" HorizontalAlignment="Left" Margin="244,25,0,0" VerticalAlignment="Top"/>
+        <Label Content="Lebel" HorizontalAlignment="Left" Margin="244,56,0,0" VerticalAlignment="Top"/>
+        <Label Content="Memo" HorizontalAlignment="Left" Margin="244,87,0,0" VerticalAlignment="Top"/>
+        <Label Content="Image" HorizontalAlignment="Left" Margin="244,116,0,0" VerticalAlignment="Top"/>
+        <Label Content="Place" HorizontalAlignment="Left" Margin="244,242,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tag" HorizontalAlignment="Left" Margin="244,271,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="317,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="317,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205"/>
+        <ComboBox x:Name="c1" HorizontalAlignment="Left" Margin="317,58,0,0" VerticalAlignment="Top" Width="205"/>
+        <ComboBox x:Name="c2" HorizontalAlignment="Left" Margin="317,244,0,0" VerticalAlignment="Top" Width="205" DisplayMemberPath="PlaceName"/>
+        <Button x:Name="b1" Content="Add Image" HorizontalAlignment="Left" Margin="317,119,0,0" VerticalAlignment="Top" Click="b1_Click"/>
+        <Image x:Name="i1" HorizontalAlignment="Left" Height="95" Margin="317,144,0,0" VerticalAlignment="Top" Width="203"/>
+        <Button x:Name="b3" Content="Cancel" HorizontalAlignment="Left" Margin="317,392,0,0" VerticalAlignment="Top" Click="b3_Click"/>
+        <Button x:Name="b4" Content="Submit" HorizontalAlignment="Left" Margin="400,392,0,0" VerticalAlignment="Top" Click="b4_Click"/>
+        <ListBox x:Name="lb1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="317,308,308,56" DisplayMemberPath="TagName"/>
+        <Button x:Name="b2" Content="Add" HorizontalAlignment="Left" Margin="546,274,0,0" VerticalAlignment="Top" Click="b2_Click"/>
+        <ComboBox x:Name="c3" HorizontalAlignment="Left" Margin="317,274,0,0" VerticalAlignment="Top" Width="205" DisplayMemberPath="TagName"/>
+
     </Grid>
 </Window>

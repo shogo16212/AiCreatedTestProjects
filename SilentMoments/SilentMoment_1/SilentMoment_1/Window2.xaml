@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SilentMoment_1"
         mc:Ignorable="d"
+        Style="{StaticResource Default}"
+        WindowStartupLocation="CenterScreen"
         Title="Window2" Height="450" Width="800">
     <Grid>
         <Label Content="Silent Moment List" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
@@ -14,11 +16,11 @@
         <ComboBox x:Name="c2" HorizontalAlignment="Left" Margin="51,43,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="c2_SelectionChanged"/>
         <DatePicker x:Name="d1" HorizontalAlignment="Left" Margin="229,42,0,0" VerticalAlignment="Top" Width="143" SelectedDateChanged="d1_SelectedDateChanged"/>
         <DatePicker x:Name="d2" HorizontalAlignment="Left" Margin="446,43,0,0" VerticalAlignment="Top" Width="143" SelectedDateChanged="d2_SelectedDateChanged"/>
-        <DataGrid x:Name="dg1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="11,74,10,10">
+        <DataGrid x:Name="dg1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="11,74,10,10" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" CanUserAddRows="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Place" Width="*" Binding="{Binding aa}"/>
-                <DataGridTextColumn Header="Level" Width="*" Binding="{Binding aa}"/>
-                <DataGridTextColumn Header="Date" Width="*" Binding="{Binding aa}"/>
+                <DataGridTextColumn Header="Place" Width="*" Binding="{Binding Place.PlaceName}"/>
+                <DataGridTextColumn Header="Level" Width="*" Binding="{Binding QuietLevel}"/>
+                <DataGridTextColumn Header="Date" Width="*" Binding="{Binding RecordedAt, StringFormat=yyyy-MM-dd}"/>
             </DataGrid.Columns>
         </DataGrid>
 
